@@ -1,0 +1,74 @@
+.estiloSolicitacao {
+    display: flex;
+}
+
+.containerPrincipal {
+    width: 95vw;
+}
+
+.headerSolicitacao {
+    width: 20vw;
+    display: flex;
+}
+
+.mainSolicitacao {
+    width: 100%;
+}
+
+.formSolicitacao {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+label {
+    font-weight: 700;
+    font-size: 1.18rem;
+    color: #23282F;
+}
+
+input, select, textarea {
+    border-radius: 6px;
+    border: solid #CBD4E1 0.8px;
+    height: 3vh;
+    width: 100%;
+}
+
+.parte1 {
+    width: 40%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inputNome {
+    width: 45%;
+}
+
+.inputEmpresa {
+    width: 25%;
+}
+
+.inputPrestacao {
+    width: 25%;
+}
+
+.inputMotivo {
+    width: 100%;
+
+    textarea {
+        height: 10vh;
+    }
+}
+
+.barraVertical {
+    background-color: #CBD4E1;
+    height: 25vh;
+    width: 0.1vw;
+}
+
+.parte2 {
+    width: 55%;
+}

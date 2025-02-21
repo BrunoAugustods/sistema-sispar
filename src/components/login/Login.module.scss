@@ -1,0 +1,115 @@
+.mainLogin {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+}
+
+.containerImagem {
+    width: 65%;
+    height: 100vh;
+    background-image: url("../../assets/Tela\ Login/imagem tela de login.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.containerLogin {
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+    .boxLogo {
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 2rem;
+
+        h1 {
+            width: 60%;
+            font-size: 2rem;
+            text-align: center;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            color: #0844C4;
+            font-size: 1rem;
+            font-weight: 700;
+        }
+    }
+
+    form {
+        width: 74%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.2vh;
+        margin-top: 0.5rem;
+    }
+
+    input {
+
+        height: 6vh;
+        width: 100%;
+        margin-top: 0.5rem;
+        padding: 1.6vh 0.8vw;
+        border-radius: 6px;
+        border: 0.8px solid #CBD4E1;
+        font-size: 1rem;
+    }
+
+    input:focus {
+        border-color: #0844C4;
+        outline: none;
+    }
+
+    p {
+        color: #23282F;
+        font-size: 1rem;
+    }
+
+    .boxBotoes {
+        width: 75%;
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: space-evenly;
+
+
+        button {
+            width: 7.9vw;
+            height: 7.4vh;
+            border-radius: 6px;
+            padding: 0.8vh 1vw;
+            font-size: 1rem;
+            font-weight: bold;
+            border: none;
+        }
+    }
+
+    button:first-child {
+        background-color: #001A3D;
+        color: white;
+    }
+
+    button:first-child:hover {
+        background-color: #00acc7;
+    }
+
+    button:last-child {
+        background-color: #00bedd;
+        color: #F1F4F9;
+    }
+
+    button:last-child:hover {
+        background-color: #00acc7;
+        color: #F1F4F9;
+    }
+
+}
