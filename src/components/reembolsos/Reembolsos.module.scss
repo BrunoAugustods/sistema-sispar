@@ -1,3 +1,4 @@
+// Container principal - Apenas da tela reembolsos
 .body {
   display: flex;
 }
@@ -13,7 +14,7 @@ header {
     font-size: 0.9rem;
   }
 }
-
+// Container - Texto principal e subtitulo
 .mainReembolsos {
   width: 95vw;
   height: 95vh;
@@ -28,7 +29,7 @@ header {
     text-align: left;
   }
 }
-
+// Container - Com os cards
 .containerCards {
   display: flex;
   justify-content: space-between;
@@ -50,7 +51,7 @@ header {
   border-radius: 6px;
   margin-top: 1rem;
 }
-
+// Container - Abaixo com imagens e dados
 .containerDados {
   border: solid 1px #CBD4E1;
   width: 70%;
@@ -93,7 +94,7 @@ header {
   padding: 6px;
   border-radius: 6px;
 }
-
+// Container - Logo e texto de dados atualizados
 .containerSistema {
   width: 14%;
   display: flex;

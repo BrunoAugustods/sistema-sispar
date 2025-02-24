@@ -1,8 +1,9 @@
+//Container principal - Apenas da página Login
 .mainLogin {
     display: flex;
     font-family: 'Inter', sans-serif;
 }
-
+//Container esquerdo - Imagem de fundo do navio
 .containerImagem {
     width: 65%;
     height: 100vh;
@@ -12,7 +13,7 @@
     background-size: cover;
 
 }
-
+//Container direito - Logo, textos, imput e botões
 .containerLogin {
     width: 35%;
     height: 100vh;
@@ -55,7 +56,6 @@
     }
 
     input {
-
         height: 6vh;
         width: 100%;
         margin-top: 0.5rem;

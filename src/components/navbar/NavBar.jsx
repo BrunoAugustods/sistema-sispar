@@ -1,3 +1,4 @@
+// Importações de imagens e Navbar
 import Historico from "../../assets/Header/Botão - Histórico.png";
 import Home from "../../assets/Header/botão - Home.png";
 import Pesquisa from "../../assets/Header/Botão - Pesquisa.png";
@@ -7,12 +8,13 @@ import Perfil from "../../assets/Header/image.png";
 import Fechar from "../../assets/Header/imagem-fechar-header.png";
 import styles from "./NavBar.module.scss";
 import { useNavigate } from "react-router-dom";
-
+// Criação da função
 function NavBar() {
   const navigate = useNavigate();
 
   return (
     <nav className={styles.navBarEstilo}>
+        {/* Container Navbar - Apenas faixa vertical esquerda */}
       <button>
         <img src={Fechar} alt="Botão abrir e fechar" />
       </button>

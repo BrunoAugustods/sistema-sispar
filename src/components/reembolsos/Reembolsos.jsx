@@ -1,3 +1,4 @@
+// Importações de imagens e Navbar
 import styles from "./Reembolsos.module.scss";
 import Home from "../../assets/Dashboard/home header.png";
 import Seta from "../../assets/Dashboard/Vector.png";
@@ -14,7 +15,7 @@ import NavBar from "../navbar/NavBar.jsx"
 function Reembolsos() {
   return (
     <div className={styles.body}>
-
+      {/* Container principal - Apenas da tela reembolsos */}
       <NavBar />
 
       <header>
@@ -22,8 +23,9 @@ function Reembolsos() {
         <img src={Seta} alt="Seta da header" />
         <p>Reembolsos</p>
       </header>
-
+      
       <main className={styles.mainReembolsos}>
+        {/* Container - Texto principal e subtitulo */}
         <h1>Sistema de Reembolsos</h1>
         <p>
           Solicite novos pedidos de reembolso, visualize solicitações em análise
@@ -31,6 +33,7 @@ function Reembolsos() {
         </p>
 
         <section className={styles.containerCards}>
+          {/* Container - Com os cards */}
           <article className={styles.card}>
             <img src={SolicitarReembolso} alt="" />
             <p><strong>Solicitar Reembolso</strong></p>
@@ -48,6 +51,7 @@ function Reembolsos() {
         </section>
 
         <section className={styles.containerDados}>
+          {/* Container - Abaixo com imagens e dados */}
           <div>
             <img
               className={styles.imgSolicitados}
@@ -82,6 +86,7 @@ function Reembolsos() {
         </section>
 
         <section className={styles.containerSistema}>
+          {/* Container - Logo e texto de dados atualizados */}
           <img src={Sistema} alt="" />
           <a href="">Sistema atualizado.</a>
         </section>

@@ -52,10 +52,10 @@ function Solicitacao() {
               </div>
 
               <div className={styles.despesas}>
-                <label htmlFor="">  Tipo de Despesa </label>
+                <label htmlForn="">  Tipo de Despesa </label>
 
                 <select name="" id="">
-                  <option value=""> Selecionar</option>
+                  <option value="">Selecionar</option>
                   <option value="">Alimentação</option>
                   <option value="">Combustível</option>
                 </select>
